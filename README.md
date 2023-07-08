@@ -25,6 +25,13 @@ $ npm run start:hmr
 $ npm run start:prod
 ```
 
+## Postman Collection Import
+
+Import the collection to have all the API's in POSTMAN with Request Params Saved
+
+<a href="https://api.postman.com/collections/7037814-27ae1594-633c-4e31-a21c-c9f8c0b36d1d?access_key=PMAT-01H4TPGASBV2YQQHEH2GKF6KZY" target="_blank">Postman Collection</a>
+
+
 ## Request and Response for API Endpoints
 ```json
 [
