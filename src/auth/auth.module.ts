@@ -12,9 +12,9 @@ import { UserServiceProvider } from 'src/users/users.provider';
     imports: [
         PassportModule.register({ defaultStrategy: 'jwt' }),
         JwtModule.register({
-            secret: 'businessSchool',
+            secret: process.env.JWT_KEY,
             signOptions: {
-                expiresIn: '21d',
+                expiresIn: 96000,
             },
         }),
         UsersModule,
